@@ -1,2 +1,2 @@
-# dev_web
-Desenvolvimento Web
+# Usabilidade, desenvolvimento web, mobile e jogos
+## Anotações de Aula
