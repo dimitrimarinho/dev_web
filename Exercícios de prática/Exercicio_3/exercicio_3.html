@@ -6,118 +6,120 @@
     </head>
 
     <body>
-    <p><label>First Name:
-        <input name="FirstName" type="text" size="25"
-            maxlength="30">
-    </label></p>
-    <p><label>Last Name:
-        <input name="LastName" type="text" size="25"
-            maxlength="30">
-    </label></p>
-    <p><label>Address:
-        <input name="Address" type="text" size="25"
-            maxlength="30">
-    </label></p>
-    <p><label>State:
-        <select name:"state">
-        <option selected>NSW</option>
-        <option>AL</option>
-        <option>AK</option>
-        <option>AZ</option>
-        <option>AR</option>
-        <option>CA</option>
-        <option>CO</option>
-        <option>CT</option>
-        <option>DE</option>
-        <option>FL</option>
-        <option>GA</option>
-        <option>HI</option>
-        <option>ID</option>
-        <option>IL</option>
-        <option>IN</option>
-        <option>IA</option>
-        <option>KS</option>
-        <option>KY</option>
-        <option>LA</option>
-        <option>ME</option>
-        <option>MD</option>
-        <option>MA</option>
-        <option>MI</option>
-        <option>MN</option>
-        <option>MS</option>
-        <option>MO</option>
-        <option>MT</option>
-        <option>NE</option>
-        <option>NV</option>
-        <option>NH</option>
-        <option>NJ</option>
-        <option>NM</option>
-        <option>NY</option>
-        <option>NC</option>
-        <option>ND</option>
-        <option>OH</option>
-        <option>OK</option>
-        <option>OR</option>
-        <option>PA</option>
-        <option>RI</option>
-        <option>SC</option>
-        <option>SD</option>
-        <option>TN</option>
-        <option>TX</option>
-        <option>UT</option>
-        <option>VT</option>
-        <option>VA</option>
-        <option>WA</option>
-        <option>WV</option>
-        <option>WI</option>
-        <option>WY</option>
-        </select>
-    </label></p>
-    <p><label>Password:
-        <input name="Password" type="password" size="25"
-            maxlength="30">
-    </label></p>
-    <p>Gender:
-        <label><input name="Gender" type="radio"
-            value="Male">Male or</label>
-        <label></label><input name="Gender" type="radio"
-            value="Female">Female</label> 
-    </p>
-    <p>Do you bleat like a sheep?
-        <label><input name="bleat_like_sheep" type="checkbox"
-            value="Yes">Yes</label>
-    </p>
-    <p>How many cups of coffee do you drink a day?</p>
-    <p>
-        <label><input name="cups_of_coffee" type="radio"
-            value="0 to 2">0 to 2 Cup(s)</label>
-        <label><input name="cups_of_coffee" type="radio"
-            value="2 to 4">2 to 4 Cups</label>
-    </p>
-    <p>
-        <label><input name="cups_of_coffee" type="radio"
-            value="4 to 8">4 to 8 Cups</label>
-        <label><input name="cups_of_coffee" type="radio"
-            value="8 to 16">8 to 16 Cups</label>
-    </p>
-    <p>
-        <label>Do you own a personal computer? 
-            <select name:"own_personal_computer">
-            <option selected>Yes</option>
-            <option>No</option>
-            </select>
-        </label>
-    </p>     
-    <p><label>How long would it take to make a HTML form?</p>  
-        <p><input name="how_long_html_form" type="text" size="25"
-    maxlength="30"></label></p>    
-    <p><label>Coments:</p>
-    <textarea name = "comments"
-        rows="4" cols="36"></textarea></label>
-    </body> 
-
-    <p>        
-        <input type = "reset" value = "Reset Form">
-        <input type = "submit" value = "Send Survey">
-    </p>
+        <form method = "post" action = "https://www.deitel.com">
+            <p><label>First Name:
+                <input name="FirstName" type="text" size="25"
+                    maxlength="30">
+            </label></p>
+            <p><label>Last Name:
+                <input name="LastName" type="text" size="25"
+                    maxlength="30">
+            </label></p>
+            <p><label>Address:
+                <input name="Address" type="text" size="25"
+                    maxlength="30">
+            </label></p>
+            <p><label>State:
+                <select name:"state">
+                <option selected>NSW</option>
+                <option>AL</option>
+                <option>AK</option>
+                <option>AZ</option>
+                <option>AR</option>
+                <option>CA</option>
+                <option>CO</option>
+                <option>CT</option>
+                <option>DE</option>
+                <option>FL</option>
+                <option>GA</option>
+                <option>HI</option>
+                <option>ID</option>
+                <option>IL</option>
+                <option>IN</option>
+                <option>IA</option>
+                <option>KS</option>
+                <option>KY</option>
+                <option>LA</option>
+                <option>ME</option>
+                <option>MD</option>
+                <option>MA</option>
+                <option>MI</option>
+                <option>MN</option>
+                <option>MS</option>
+                <option>MO</option>
+                <option>MT</option>
+                <option>NE</option>
+                <option>NV</option>
+                <option>NH</option>
+                <option>NJ</option>
+                <option>NM</option>
+                <option>NY</option>
+                <option>NC</option>
+                <option>ND</option>
+                <option>OH</option>
+                <option>OK</option>
+                <option>OR</option>
+                <option>PA</option>
+                <option>RI</option>
+                <option>SC</option>
+                <option>SD</option>
+                <option>TN</option>
+                <option>TX</option>
+                <option>UT</option>
+                <option>VT</option>
+                <option>VA</option>
+                <option>WA</option>
+                <option>WV</option>
+                <option>WI</option>
+                <option>WY</option>
+                </select>
+            </label></p>
+            <p><label>Password:
+                <input name="Password" type="password" size="25"
+                    maxlength="30">
+            </label></p>
+            <p>Gender:
+                <label><input name="Gender" type="radio"
+                    value="Male">Male or</label>
+                <label></label><input name="Gender" type="radio"
+                    value="Female">Female</label> 
+            </p>
+            <p>Do you bleat like a sheep?
+                <label><input name="bleat_like_sheep" type="checkbox"
+                    value="Yes">Yes</label>
+            </p>
+            <p>How many cups of coffee do you drink a day?</p>
+            <p>
+                <label><input name="cups_of_coffee" type="radio"
+                    value="0 to 2">0 to 2 Cup(s)</label>
+                <label><input name="cups_of_coffee" type="radio"
+                    value="2 to 4">2 to 4 Cups</label>
+            </p>
+            <p>
+                <label><input name="cups_of_coffee" type="radio"
+                    value="4 to 8">4 to 8 Cups</label>
+                <label><input name="cups_of_coffee" type="radio"
+                    value="8 to 16">8 to 16 Cups</label>
+            </p>
+            <p>
+                <label>Do you own a personal computer? 
+                    <select name:"own_personal_computer">
+                    <option selected>Yes</option>
+                    <option>No</option>
+                    </select>
+                </label>
+            </p>     
+            <p><label>How long would it take to make a HTML form?</p>  
+                <p><input name="how_long_html_form" type="text" size="25"
+            maxlength="30"></label></p>    
+            <p><label>Coments:</p>
+            <textarea name = "comments"
+                rows="4" cols="36"></textarea></label>
+            
+            <p>        
+                <input type = "reset" value = "Reset Form">
+                <input type = "submit" value = "Send Survey">
+            </p>
+        </form>
+    </body>
 </html>
