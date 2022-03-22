@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Form</title>
+    </head>
+
+    <body>
+        <form method = "post" action = "https://www.deitel.com" autocomplete = "on">
+            <p><label>Nome:
+                <input name="Nome" type="text" size="25"
+                    maxlength="30">
+            </label></p>
+            <p><label>Sobrenome:
+                <input name="Sobrenome" type="text" size="25"
+                    maxlength="30">
+            </label></p>
+            <p><label>Endereço de e-mail:
+                <input name="Email" type="text" size="25"
+                    maxlength="30">
+            </label></p>
+            <p><label for = "txtList">Qual é o dia do seu aniversário?
+                <input type="text" id="txtList"
+                    placeholder="Selecione um dia" list="days"/>
+                <datalist id = "days">
+                    <option value = "1">
+                    <option value = "2">
+                    <option value = "3">
+                    <option value = "4">
+                    <option value = "5">
+                    <option value = "6">
+                    <option value = "7">
+                    <option value = "8">
+                    <option value = "9">
+                    <option value = "10">
+                    <option value = "11">
+                    <option value = "12">
+                    <option value = "13">
+                    <option value = "14">
+                    <option value = "15">
+                    <option value = "16">
+                    <option value = "17">
+                    <option value = "18">
+                    <option value = "19">
+                    <option value = "20">
+                    <option value = "21">
+                    <option value = "22">
+                    <option value = "23">
+                    <option value = "24">
+                    <option value = "25">
+                    <option value = "26">
+                    <option value = "27">
+                    <option value = "28">
+                    <option value = "29">
+                    <option value = "30">
+                    <option value = "31">                                                
+                </datalist>                
+            </label></p>
+            <p><label for = "txtList">Qual é o mês do seu aniversário?
+                <input type="text" id="txtList"
+                    placeholder="Selecione um mês" list="months"/>
+                <datalist id = "months">
+                    <option value = "Janeiro">
+                    <option value = "Fevereiro">
+                    <option value = "Março">
+                    <option value = "Abril">
+                    <option value = "Maio">
+                    <option value = "Junho">
+                    <option value = "Julho">
+                    <option value = "Agosto">
+                    <option value = "Setembro">
+                    <option value = "Outubro">
+                    <option value = "Novembro">
+                    <option value = "Dezembro">                
+                </datalist>
+            </label></p>  
+            <p>        
+                <input type = "reset" value = "Reset Form">
+                <input type = "submit" value = "Send Survey">
+            </p>          
+        </form>
+    </body>
+</html>
