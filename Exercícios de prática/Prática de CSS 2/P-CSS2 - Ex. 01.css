@@ -1,0 +1,15 @@
+.botao {    
+    background-color: skyblue;
+    border: 2px;
+    border-color: rgb(131, 34, 34);
+    border-style: dashed;
+    margin: 5px;
+    width: 300px;
+    padding: 20px;
+    height: 50px ;
+    display: inline-block;
+    text-align: center;
+}
+.botao:hover{
+    background-color: greenyellow;
+}
