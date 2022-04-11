@@ -21,3 +21,23 @@ i) Converta a string zVal para um inteiro e armazene o resultado na variável z.
 j) Calcule o produto dos três inteiros contidos nas variáveis x, y e z, e atribua o resultado à variável resultado.
 
 k) Escreva uma linha de texto HTML5 contendo a string "O produto é " seguida do valor da variável resultado.
+
+
+### Resposta
+
+~~~
+ <p id="writeInHTML5"></p>    
+        <script>
+            // O script calculará o produto de três inteiros
+            var x, y, z, result;
+            var xVal, yVal, zVal;
+            xVal = window.prompt("Insira o primeiro valor:");
+            yVal = window.prompt("Insira o segundo valor:");
+            zVal = window.prompt("Insira o terceiro valor:");
+            x = parseInt(xVal);
+            y = parseInt(yVal);
+            z = parseInt(zVal);
+            resultado = x * y * z;
+            document.getElementById("writeInHTML5").innerHTML = "O produto é " + resultado;
+        </script>    
+ ~~~
