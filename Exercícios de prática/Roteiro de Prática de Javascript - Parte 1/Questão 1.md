@@ -11,10 +11,13 @@ d) O objeto _______ exibe diálogos de alerta e diálogos de prompt.
 e) _______ são palavras reservadas para uso por JavaScript.
 
 f) Métodos _________ e _______ do objeto ________ escrevem texto HTML5 em um documento HTML5.
+<br>
+<br>
+### Respostas:
 
-a) //
-b) ;
-c) if
-d) window
-e) palavras-chave
+a) // <br>
+b) ; <br>
+c) if <br>
+d) window <br>
+e) palavras-chave <br>
 f) write, writeln, document
