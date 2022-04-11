@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Questão 5</title>
+    </head>
+
+    <body>
+        <p id="writeInHTML5"></p>    
+        <script>
+            // O script calculará o produto de três inteiros
+            var x, y, z, result;
+            var xVal, yVal, zVal;
+            xVal = window.prompt("Insira o primeiro valor:");
+            yVal = window.prompt("Insira o segundo valor:");
+            zVal = window.prompt("Insira o terceiro valor:");
+            x = parseInt(xVal);
+            y = parseInt(yVal);
+            z = parseInt(zVal);
+            resultado = x * y * z;
+            document.getElementById("writeInHTML5").innerHTML = "O produto é " + resultado;
+        </script>            
+    </body>
+</html>
