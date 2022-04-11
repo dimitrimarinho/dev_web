@@ -24,3 +24,6 @@ e) Gere uma linha de texto HTML5 que exibirá a mensagem "This is JavaScript" no
     <script>
         document.getElementById("writeInHTML5").innerHTML = "This is JavaScript";
     </script>
+
+    Resposta melhor (Assim é independente da estrutura do documento HTML):
+        document.write("<p>This is JavaScript</p>");
