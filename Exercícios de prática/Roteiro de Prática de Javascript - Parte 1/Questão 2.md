@@ -5,7 +5,7 @@ b) JavaScript considera as variáveis number e NuMbEr idênticas. <br>
 c) O operador resto (%) só pode ser utilizado com operandos numéricos. <br>
 d) Os operadores aritméticos *, /, %, + e - têm todos o mesmo nível de precedência. <br>
 e) O método parseInt converte um inteiro em uma string. <br>
-<br>
+
 ### Respostas:
 
 a) Falso. O computador não imprime o comentário <br>
